@@ -1,0 +1,2 @@
+rootProject.name='Material Component Practice'
+include ':app'
