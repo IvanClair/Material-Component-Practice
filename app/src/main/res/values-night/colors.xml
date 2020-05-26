@@ -11,4 +11,8 @@
     <color name="colorSecondaryVariant">#018786</color>
     <color name="colorOnSecondary">@android:color/black</color>
 
+    <!--  Background  -->
+    <color name="colorBackground">@android:color/black</color>
+    <color name="colorOnBackground">@android:color/white</color>
+
 </resources>

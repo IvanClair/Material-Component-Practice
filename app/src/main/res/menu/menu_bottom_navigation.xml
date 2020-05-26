@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/page_1"
+        android:enabled="true"
+        android:icon="@drawable/ic_apps"
+        android:title="Apps"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/page_2"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_work"
+        android:title="Homework"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/page_3"
+        android:enabled="true"
+        android:icon="@drawable/ic_my_location"
+        android:title="Location"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/page_4"
+        android:enabled="true"
+        android:icon="@drawable/ic_busy"
+        android:title="Busy"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/page_5"
+        android:enabled="true"
+        android:icon="@drawable/ic_translate"
+        android:title="Translate"
+        tools:ignore="HardcodedText" />
+</menu>
