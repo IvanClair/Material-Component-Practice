@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Properties
+         itemBackground : ?attr/colorPrimary ?%
+         itemIconTint   : ?attr/colorPrimary
+         itemTextColor  : ?attr/colorPrimary
+     -->
+    <style name="MyNavigationDrawer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+</resources>

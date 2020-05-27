@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
         FragmentStateAdapter(activity) {
 
         private val dataList = mutableListOf(
+            NavigationDrawerFragment(),
             BottomAppBarFragmentWithFab(),
             NavigationBottomWithBadgeFragment()
         )
