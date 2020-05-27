@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Widget.MaterialComponents.BottomAppBar
+         backgroundTint : ?attr/colorSurface -->
+
+    <!-- Widget.MaterialComponents.BottomAppBar.Colored
+         backgroundTint : ?attr/colorPrimary -->
+
+    <!-- Widget.MaterialComponents.BottomAppBar.PrimarySurface (night)
+         backgroundTint : ?attr/colorPrimary -->
+
+    <!-- Attributes
+         android:backgroundTint       : ?attr/colorSurface
+         fabAlignmentMode             : center (end)
+         fabAnimationMode             : slide (scale) (The animation style that is used when changing fabAlignmentMode)
+         hideOnScroll                 : false (true)
+         fabCradleMargin              : ?dp
+         fabCradleRoundedCornerRadius : ?dp
+         fabCradleVerticalOffset      : ? dp -->
+    <style name="MyBottomAppBar" parent="@style/Widget.MaterialComponents.BottomAppBar.PrimarySurface">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <!-- default : false -->
+        <item name="hideOnScroll">true</item>/
+    </style>
+</resources>

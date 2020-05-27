@@ -13,42 +13,21 @@
          Icon/Text label color (active)   : ?attr/colorOnPrimary -->
 
 
-    <!-- Widget.MaterialComponents.BottomNavigationView.PrimarySurface
-
-         light :
-         Container color                  : ?attr/colorPrimary
-         Icon/Text label color (inactive) : ?attr/colorOnPrimary at 60%
-         Icon/Text label color (active)   : ?attr/colorOnPrimary
-
-         dark :
+    <!-- Widget.MaterialComponents.BottomNavigationView.PrimarySurface (night)
          Container color                  : ?attr/colorSurface
          Icon/Text label color (inactive) : ?attr/colorOnSurface at 60%
          Icon/Text label color (active)   : ?attr/colorPrimary -->
 
+    <!-- Attributes
+         elevation                  : 8dp
+         itemRippleColor            : ?attr/colorOnSurface at 8%
+         labelVisibilityMode        : auto (labeled, selected, unselected)
+         itemIconSize               : 24dp
+         itemTextAppearanceInactive : ?attr/textAppearanceCaption
+         itemTextAppearanceActive   : ?attr/textAppearanceCaption -->
+
     <style name="MyNavigationBottomView" parent="@style/Widget.MaterialComponents.BottomNavigationView.PrimarySurface">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-
-        <!-- default : see above -->
-        <!--        <item name="backgroundTint">?attr/colorPrimary</item>-->
-
-        <!-- default : see above -->
-        <!--        <item name="itemIconTint">?attr/colorOnSurface</item>-->
-
-        <!-- default : 8dp -->
-        <!--        <item name="elevation">8dp</item>-->
-
-        <!-- default : ?attr/colorOnSurface at 8% -->
-        <!--        <item name="itemRippleColor">?attr/colorPrimary</item>-->
-
-        <!-- default : auto -->
-        <!--        <item name="labelVisibilityMode">labeled</item>-->
-
-        <!-- default : 24dp -->
-        <!--        <item name="itemIconSize">28dp</item>-->
-
-        <!-- default : ?attr/textAppearanceCaption -->
-        <!--        <item name="itemTextAppearanceInactive">?attr/textAppearanceBody1</item>-->
-        <!--        <item name="itemTextAppearanceActive">?attr/textAppearanceHeadline1</item>-->
     </style>
 </resources>

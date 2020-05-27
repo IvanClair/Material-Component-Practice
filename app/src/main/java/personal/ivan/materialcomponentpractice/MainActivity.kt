@@ -39,7 +39,8 @@ class MainActivity : AppCompatActivity() {
     private inner class MyViewPagerAdapter(activity: FragmentActivity) :
         FragmentStateAdapter(activity) {
 
-        private val dataList = mutableListOf<Fragment>(
+        private val dataList = mutableListOf(
+            BottomAppBarFragmentWithFab(),
             NavigationBottomWithBadgeFragment()
         )
 

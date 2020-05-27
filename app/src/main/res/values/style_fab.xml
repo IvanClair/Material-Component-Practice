@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Container Attributes
+         backgroundTint             : ?attr/colorSecondary
+         borderWidth                : 0.5dp
+         fabSize                    : auto (mini, normal)
+         shapeAppearance            : ?attr/shapeAppearanceSmallComponent
+         shapeAppearanceOverlay     : ?attr/shapeAppearanceSmallComponent
+         elevation                  : 6dp
+         hoveredFocusedTranslationZ : 2dp
+         pressedTranslationZ        : 6dp
+         rippleColor                : ?attr/colorOnSecondary -->
+
+    <!-- Icon Attributes
+         srcCompat                  : null
+         tint (only light theme)    : ?attr/colorOnSecondary -->
+    <style name="MyFab" parent="@style/Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+</resources>

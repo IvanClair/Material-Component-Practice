@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/text_view"
+            style="@style/MyTextView.H5"
+            android:text="HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText HardcodedText"
+            tools:ignore="HardcodedText" />
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottom_app_bar"
+        style="@style/MyBottomAppBar"
+        android:layout_gravity="bottom"
+        app:fabAlignmentMode="end"
+        app:menu="@menu/menu_bottom_app_bar"
+        app:navigationIcon="@drawable/ic_apps" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        style="@style/MyFab"
+        app:layout_anchor="@id/bottom_app_bar"
+        app:srcCompat="@drawable/ic_my_location" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
