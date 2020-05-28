@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textDirection">locale</item>
+    </style>
+
+    <style name="MyTextView.H5" parent="MyTextView">
+        <item name="android:textAppearance">?attr/textAppearanceHeadline5</item>
+    </style>
+
+    <style name="MyTextView.S1" parent="MyTextView">
+        <item name="android:textAppearance">?attr/textAppearanceSubtitle1</item>
+    </style>
+
+    <style name="MyTextView.B1" parent="MyTextView">
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+
+    <style name="MyTextView.Caption" parent="MyTextView">
+        <item name="android:textAppearance">?attr/textAppearanceCaption</item>
+    </style>
+</resources>

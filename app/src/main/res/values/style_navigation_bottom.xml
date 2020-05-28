@@ -26,7 +26,7 @@
          itemTextAppearanceInactive : ?attr/textAppearanceCaption
          itemTextAppearanceActive   : ?attr/textAppearanceCaption -->
 
-    <style name="MyNavigationBottomView" parent="@style/Widget.MaterialComponents.BottomNavigationView.PrimarySurface">
+    <style name="MyNavigationBottomView" parent="Widget.MaterialComponents.BottomNavigationView.PrimarySurface">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>

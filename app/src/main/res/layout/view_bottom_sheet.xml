@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.google.android.material.textview.MaterialTextView
+        style="@style/MyTextView.H5"
+        android:text="H5"
+        tools:ignore="HardcodedText" />
+
+    <com.google.android.material.textview.MaterialTextView
+        style="@style/MyTextView.S1"
+        android:layout_marginTop="16dp"
+        android:text="S1"
+        tools:ignore="HardcodedText" />
+
+    <com.google.android.material.textview.MaterialTextView
+        style="@style/MyTextView.B1"
+        android:layout_marginTop="16dp"
+        android:text="B1"
+        tools:ignore="HardcodedText" />
+
+    <com.google.android.material.textview.MaterialTextView
+        style="@style/MyTextView.Caption"
+        android:layout_marginTop="16dp"
+        android:text="Caption"
+        tools:ignore="HardcodedText" />
+</LinearLayout>

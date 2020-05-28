@@ -15,7 +15,7 @@
     <!-- Icon Attributes
          srcCompat                  : null
          tint (only light theme)    : ?attr/colorOnSecondary -->
-    <style name="MyFab" parent="@style/Widget.MaterialComponents.FloatingActionButton">
+    <style name="MyFab" parent="Widget.MaterialComponents.FloatingActionButton">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
 

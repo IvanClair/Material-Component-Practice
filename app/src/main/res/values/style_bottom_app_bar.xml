@@ -18,7 +18,7 @@
          fabCradleMargin              : ?dp
          fabCradleRoundedCornerRadius : ?dp
          fabCradleVerticalOffset      : ? dp -->
-    <style name="MyBottomAppBar" parent="@style/Widget.MaterialComponents.BottomAppBar.PrimarySurface">
+    <style name="MyBottomAppBar" parent="Widget.MaterialComponents.BottomAppBar.PrimarySurface">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
 
